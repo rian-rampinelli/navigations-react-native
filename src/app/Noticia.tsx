@@ -4,8 +4,6 @@ export default function Noticia() {
     return (
         <View>
             <Text>Noti</Text>
-           
-
         </View>
     )
 }
