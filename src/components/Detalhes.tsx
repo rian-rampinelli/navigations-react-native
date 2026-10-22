@@ -7,7 +7,7 @@ import type { NoticiaStackParamList } from "./ListCards";
 type Props = NativeStackScreenProps<NoticiaStackParamList, "Detalhes">;
 
 export default function Detalhes({ route, navigation }: Props) {
-  const { noticia } = route.params;
+  const noticia = route.params.noticia;
 
   return (
     <ScrollView contentContainerStyle={styles.container}>

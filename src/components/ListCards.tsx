@@ -23,7 +23,6 @@ type Props = {
 export default function ListCards({ noticias, navigation }: Props) {
   return (
     <ScrollView contentContainerStyle={styles.lista}>
-    
       {noticias.map((noticia) => (
         <Card
           key={noticia.id}

@@ -1,5 +1,4 @@
 import "react-native-gesture-handler";
-import { View } from "react-native";
 import { NavigationContainer } from "@react-navigation/native";
 import { createDrawerNavigator } from "@react-navigation/drawer";
 import Sobre from "./src/app/Sobre";
@@ -13,7 +12,7 @@ export default function App() {
   return (
     <SafeAreaProvider>
       <NavigationContainer>
-        <Drawer.Navigator initialRouteName="Notícias" screenOptions={{ headerTitleAlign: "center", headerTitleContainerStyle: { marginLeft: -40 } }}>
+        <Drawer.Navigator initialRouteName="Notícias" screenOptions={{ headerTitleAlign: "center", headerTitleContainerStyle: { marginLeft:-30 } }}>
 
           <Drawer.Screen name="Notícias" component={Noticia} options={{
             drawerIcon: ({ color, size }) => (

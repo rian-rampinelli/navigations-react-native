@@ -9,7 +9,6 @@ const Tab = createBottomTabNavigator();
 
 export default function Noticia() {
     return (
-
         <Tab.Navigator screenOptions={{
             tabBarStyle: { height: 100 },
             headerStyle: { height: 70 },          
